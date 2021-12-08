@@ -1,0 +1,196 @@
+@font-face {
+  font-family:"digitalnum";
+  src: url(fonts/LCDNOVA.TTF);
+}
+
+@font-face {
+  font-family: "digitalnum";
+  src: url(LCDNOVA.TTF);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+  background: #000000;
+}
+*{
+  box-sizing: border-box; /*https://developer.mozilla.org/ru/docs/Web/CSS/box-sizing*/
+}
+@media all and (max-width: 1440px) {
+  .container {
+    display: block;
+  }
+
+.stars{
+  width: 791px;
+  height: 228px;
+  display: block;
+  position: relative;
+  left: 22.5%;
+  top: -1545px;
+  background: url('../images/Group194.png');
+  background-size: auto 100%;
+  animation: stars .5s steps(1) infinite;
+  animation-play-state: running;
+}
+@keyframes stars {
+    50%{background-position: 791px ;}
+    100%{background-position: 0px ;}
+  }
+.container{
+  background:  #000000;
+  height: 339px;
+  width: 1440px;
+  overflow: hidden;
+  padding: 15px 0;
+  position: absolute;
+  margin-top: px;
+  margin-left: px;
+  border-radius: 0px;
+}
+.p{
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  animation: lin 5s linear infinite;
+}
+.p1{
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  animation: lin2 5s linear infinite;
+}
+.row{
+  width: 1440px;
+  height: 339px;
+  text-shadow: 0 0 0px 0px rgba(255, 0, 0, 1);
+  vertical-align: middle; /*https://developer.mozilla.org/ru/docs/Web/CSS/vertical-align*/
+  padding: absolute;
+  top: 100px;
+  color: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@keyframes lin {
+  from { text-indent: -100%}
+  to { text-indent: 40%}
+}
+@keyframes lin2 {
+  from { text-indent: 40%}
+  to { text-indent: -100%}
+}
+.bandit{
+  position: relative;
+  width: 1389px;
+  height: 1560px;
+  margin-top: 12px;
+  margin-left: 26px;
+}
+.slots{
+  position: absolute;
+}
+.clock{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-color: 10px;
+}
+
+.cl-el{
+  width: 225px;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mn{
+  width: 100%;
+  /*font-size: 50px;
+  text-align: center;*/
+  line-height: 100px;
+  position: relative;
+  top: 0;
+
+}
+.sec-1{
+  animation: sec 4s linear infinite;
+}
+
+@keyframes sec {
+  0%{ top: 0%;}
+  25%{ top: -10%;}
+  50%{ top: -200%}
+  75%{ top: -10%;}
+  100%{ top: 0%;}
+}
+
+.clock2{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 258px;
+  border-color: 10px;
+}
+.sec-2{
+  animation: sec2 4s linear infinite;
+}
+
+@keyframes sec2 {
+  0%{ top: 0%;}
+  25%{ top: -10%;}
+  50%{ top: -300%}
+  75%{ top: -10%;}
+  100%{ top: 0%;}
+}
+.clock3{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 486px;
+  border-color: 10px;
+}
+.clock4{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 714px;
+  border-color: 10px;
+}
+.clock5{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 942px;
+  border-color: 10px;
+}
+.clock6{
+  width: 100px;
+  height: 1276px;
+  position: absolute;
+  top: -1582px;
+  margin-top: 50px;
+  margin-left: 1170px;
+  border-color: 10px;
+}
+.digital {
+  font-family: "digitalnum";
+  font-size: 60px;
+  position: relative;
+  top: -1000px;
+}
+ h1 {
+   font-family: "digitalnum";
+ }
+}
