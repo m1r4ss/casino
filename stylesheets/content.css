@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'digitalnum';
+  src:
+    local('O'),
+    url('../fonts/LCDNOVA.woff') format('woff'),
+    url('../fonts/LCDNOVA.TTF'),
+    url('../fonts/LCDNOVA.svg') format('svg');
+}
+@font-face {
+  font-family:"digitalnum";
+  src: url('../fonts/LCDNOVA.TTF');
+}
+
+@import url('https://allfont.ru/allfont.css?fonts=ds-crystal');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+  background: #000000;
+}
+*{
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "digitalnum";
+}
+h2 {
+  font-family: "digitalnum";
+}
+h3 {
+  font-family: "digitalnum";
+}
+@keyframes lin {
+  from { text-indent: -40%}
+  to { text-indent: -100%}
+}
+@keyframes lin2 {
+  from { text-indent: -100%}
+  to { text-indent: -40%}
+}
+@keyframes sec {
+  0%{ top: -300%;}
+  25%{ top: %;}
+  50%{ top: 0%}
+  75%{ top: -30%;}
+  90%{ top: 0%;}
+  100%{ top: -300%;}
+}
+@keyframes sec2 {
+  0%{ top: -10%;}
+  25%{ top: -60%;}
+  50%{ top: -200%;}
+  75%{ top: -30%;}
+  100%{ top: -10%;}
+}
+.text2:hover {
+  color: #B60000;
+  background-color: #ffffff;
+}
+.text1:hover {
+  color: #B60000;
+  background-color: #ffffff;
+}
+.text3:hover {
+  color: #B60000;
+  background-color: #ffffff;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.buby:hover {
+  animation-play-state: paused;
+}
+.but:hover { 
+  background-position: 170.8px 0px;
+}
+/*.but:hover + .buby {
+   animation-play-state: paused;
+ }*/
+.padenie {
+  width: 174px;
+  height: 174px;
+  position: absolute;
+  top: -100px;
+  animation: padenie 9s normal infinite ;
+}
+.monetka1 {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  animation: 3s linear infinite running rot;
+}
+.monetka2 {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  animation: 3s linear infinite running rot;
+}
+.monetka3 {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  animation: 3s linear infinite running rot;
+}
+.monetka4 {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  animation: 3s linear infinite running rot;
+}
+.monetka5 {
+  position: absolute;
+  left: 900px;
+  top: 200px;
+  animation: 3s linear infinite running rot;
+}
+.monetka6 {
+  position: absolute;
+  left: 230px;
+  top: 185px;
+  animation: 3s linear infinite running rot;
+}
+.monetka7 {
+  position: absolute;
+  left: 680px;
+  top: 300px;
+  animation: 3s linear infinite running rot;
+}
+.monetka8 {
+  position: absolute;
+  left: 550px;
+  top: 180px;
+  animation: 3s linear infinite running rot;
+}
+.monetka9 {
+  position: absolute;
+  left: px;
+  top: px;
+  animation: 3s linear infinite running rot;
+}
+.monetka10 {
+  position: absolute;
+  left: 820px;
+  top: 300px;
+  animation: 3s linear infinite running rot;
+}
+.monetka11 {
+  position: absolute;
+  left: 650px;
+  top: 400px;
+  animation: 3s linear infinite running rot;
+}
+.monetka12 {
+  position: absolute;
+  left: 720px;
+  top: 300px;
+  animation: 5s linear infinite running rot;
+}
+@keyframes padenie {
+  0%{ top: -600px;}
+  50%{ top: 300px;}
+  100%{ top: 1000px;}
+}
+.cl-el{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.mn{
+  width: 100%;
+  line-height: 100px;
+  position: relative;
+  top: 0;
+}
+.sec-1{
+  animation: sec 6s normal infinite;
+}
+.sec-2{
+  animation: sec2 6s normal infinite;
+}
+.cl-el2{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.cl-el3{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.cl-el4{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.cl-el5{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.cl-el6{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.cl-el7{
+  width: ;
+  height: 100%;
+  display: inline-block;
+  background: ;
+  color: black;
+  overflow: hidden;
+}
+.name{
+  position: absolute;
+  color: #FF9C01;
+  font-weight: bold;
+  font-size: 96px;
+  font-family: 'Montserrat', sans-serif;
+  animation: name .5s infinite;
+  animation-play-state: running;
+}
+/*@keyframes name {
+  50%{color: #B60000;}
+  100%{color: #FF9C01;}
+}*/
+.name:hover{
+  color: #B60000;
+}
